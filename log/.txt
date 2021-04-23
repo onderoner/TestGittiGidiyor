@@ -1,0 +1,70 @@
+2021-04-23 21:41:49 INFO  MainPage:30 - Driver başlatıldı
+2021-04-23 21:41:55 INFO  MainPage:27 - Anasayfa açıldı
+2021-04-23 21:42:08 INFO  MainPage:51 - Login başarılı 
+2021-04-23 21:42:21 INFO  MainPage:70 - ikinci syaf açıldı açıldı
+2021-04-23 21:42:21 INFO  MainPage:75 - There are 48 products on the second page.Therefore, the range is 0-49.
+2021-04-23 21:42:31 INFO  MainPage:89 - sepete eklendi
+2021-04-23 21:42:31 INFO  MainPage:93 - Total Price= 4.253,60 TL
+2021-04-23 21:42:31 INFO  MainPage:95 - basket price= 4.253,60 TL
+2021-04-23 21:42:31 INFO  MainPage:97 - Fiyatlar eşittir.
+2021-04-23 21:42:32 INFO  MainPage:116 - sepet boşaltılmışltır
+2021-04-23 21:42:33 INFO  MainPage:40 - Driver kapatıldı
+2021-04-23 21:44:49 INFO  MainPage:30 - Driver başlatıldı
+2021-04-23 21:44:54 INFO  MainPage:97 - Anasayfa açıldı
+2021-04-23 21:45:06 INFO  MainPage:121 - Login başarılı 
+2021-04-23 21:45:19 INFO  MainPage:45 - ikinci syaf açıldı açıldı
+2021-04-23 21:45:19 INFO  MainPage:50 - There are 48 products on the second page.Therefore, the range is 0-49.
+2021-04-23 21:45:19 INFO  MainPage:52 - Selected item number: 18
+2021-04-23 21:45:29 INFO  MainPage:64 - sepete eklendi
+2021-04-23 21:45:29 INFO  MainPage:68 - Total Price= 22.449,00 TL
+2021-04-23 21:45:29 INFO  MainPage:70 - basket price= 22.449,00 TL
+2021-04-23 21:45:29 INFO  MainPage:72 - Fiyatlar eşittir.
+2021-04-23 21:45:30 INFO  MainPage:40 - Driver kapatıldı
+2021-04-23 22:31:50 INFO  MainPage:30 - Driver başlatıldı
+2021-04-23 22:31:55 INFO  MainPage:85 - Anasayfa açıldı
+2021-04-23 22:32:07 INFO  MainPage:109 - Login başarılı 
+2021-04-23 22:32:18 INFO  MainPage:33 - ikinci syaf açıldı açıldı
+2021-04-23 22:32:18 INFO  MainPage:38 - There are 48 products on the second page.Therefore, the range is 0-49.
+2021-04-23 22:32:18 INFO  MainPage:40 - Selected item number: 24
+2021-04-23 22:32:28 INFO  MainPage:52 - sepete eklendi
+2021-04-23 22:32:28 INFO  MainPage:56 - Total Price= 3.271,30 TL
+2021-04-23 22:32:28 INFO  MainPage:58 - basket price= 3.271,30 TL
+2021-04-23 22:32:28 INFO  MainPage:60 - Fiyatlar eşittir.
+2021-04-23 22:32:29 INFO  MainPage:40 - Driver kapatıldı
+2021-04-23 22:32:41 INFO  MainPage:30 - Driver başlatıldı
+2021-04-23 22:32:46 INFO  MainPage:85 - Anasayfa açıldı
+2021-04-23 22:32:59 INFO  MainPage:109 - Login başarılı 
+2021-04-23 22:33:10 INFO  MainPage:33 - ikinci syaf açıldı açıldı
+2021-04-23 22:33:10 INFO  MainPage:38 - There are 48 products on the second page.Therefore, the range is 0-49.
+2021-04-23 22:33:10 INFO  MainPage:40 - Selected item number: 17
+2021-04-23 22:33:27 INFO  MainPage:40 - Driver kapatıldı
+2021-04-23 22:39:55 INFO  MainPage:30 - Driver başlatıldı
+2021-04-23 22:40:01 INFO  MainPage:40 - Driver kapatıldı
+2021-04-23 22:40:50 INFO  MainPage:30 - Driver başlatıldı
+2021-04-23 22:40:56 INFO  MainPage:40 - Driver kapatıldı
+2021-04-23 22:48:48 INFO  MainPage:30 - Driver başlatıldı
+2021-04-23 22:48:54 INFO  MainPage:40 - Driver kapatıldı
+2021-04-23 22:53:19 INFO  MainPage:30 - Driver başlatıldı
+2021-04-23 22:53:24 INFO  MainPage:88 - Anasayfa açıldı
+2021-04-23 22:53:36 INFO  MainPage:112 - Login başarılı 
+2021-04-23 22:53:47 INFO  MainPage:36 - ikinci syaf açıldı açıldı
+2021-04-23 22:53:47 INFO  MainPage:41 - There are 48 products on the second page.Therefore, the range is 0-49.
+2021-04-23 22:53:47 INFO  MainPage:43 - Selected item number: 36
+2021-04-23 22:53:57 INFO  MainPage:55 - sepete eklendi
+2021-04-23 22:53:57 INFO  MainPage:59 - Total Price= 3.379,86 TL
+2021-04-23 22:53:57 INFO  MainPage:61 - basket price= 3.379,86 TL
+2021-04-23 22:53:57 INFO  MainPage:63 - Fiyatlar eşittir.
+2021-04-23 22:53:59 INFO  MainPage:81 - sepet boşaltılmışltır
+2021-04-23 22:53:59 INFO  MainPage:40 - Driver kapatıldı
+2021-04-23 23:07:21 INFO  MainPage:30 - Driver başlatıldı
+2021-04-23 23:07:27 INFO  MainPage:85 - Anasayfa açıldı
+2021-04-23 23:07:38 INFO  MainPage:109 - Login başarılı 
+2021-04-23 23:07:49 INFO  MainPage:33 - ikinci syaf açıldı açıldı
+2021-04-23 23:07:49 INFO  MainPage:38 - There are 48 products on the second page.Therefore, the range is 0-49.
+2021-04-23 23:07:49 INFO  MainPage:40 - Selected item number: 20
+2021-04-23 23:08:06 INFO  MainPage:52 - sepete eklendi
+2021-04-23 23:08:06 INFO  MainPage:56 - Total Price= 3.429,90 TL
+2021-04-23 23:08:06 INFO  MainPage:58 - basket price= 3.429,90 TL
+2021-04-23 23:08:06 INFO  MainPage:60 - Fiyatlar eşittir.
+2021-04-23 23:08:08 INFO  MainPage:78 - sepet boşaltılmışltır
+2021-04-23 23:08:09 INFO  MainPage:40 - Driver kapatıldı
