@@ -4,6 +4,9 @@ import org.junit.Assert;
 import org.junit.Test;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.Select;
+
+import java.util.HashMap;
+
 import static org.junit.Assert.*;
 
 public class MainPageTest extends MainPage {
@@ -11,12 +14,16 @@ public class MainPageTest extends MainPage {
     @Test
     public void TestCase() throws InterruptedException {
 
+
         Login();
 
         //Searches for the word "bilgisayar" in the searchbar and clicks the search button.
         driver.findElement(By.name("k")).sendKeys("bilgisayar");
-        WebElement searchBarClick = driver.findElement(By.xpath("//button[@class='qjixn8-0 sc-1bydi5r-0 hKfdXF']"));
-        searchBarClick.click();
+        HashMap<String, String> xPaths = new HashMap<String, String>();
+        xPaths.put("SearchButton","//button[@class='qjixn8-0 sc-1bydi5r-0 hKfdXF']");
+
+        driver.findElement(By.xpath(xPaths.get("SearchButton"))).click();
+
 
         //If you press the "end" key on the keyboard on a page, it goes to the bottom of the page. That's why I scrolled.
         driver.findElement(By.cssSelector("body")).sendKeys(Keys.CONTROL, Keys.END);
@@ -71,10 +78,19 @@ public class MainPageTest extends MainPage {
         //sepeti boşaltmak için
         WebElement deleteProducts = driver.findElement(By.cssSelector("i[class='gg-icon gg-icon-bin-medium']"));
         deleteProducts.click();
-
+        Thread.sleep(2000);
         //sepetin boş olduğu kontrol edilir.
-        String actualText = driver.findElement(By.cssSelector("div[class='gg-w-22 gg-d-22 gg-t-21 gg-m-18'] > h2")).getText();
-        //Assert.assertEquals("Sepetinizde ürün bulunmamaktadır.", actualText);
+        String actualText = driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/div[1]/form/div/div[2]/div[3]/div/div[1]/div/div[1]/h2")).getText();
+
+       if(actualText.contains("Sipariş Özeti")){
+           log.info("false girdi");
+           Assert.assertEquals("AppOkay", "AppCrashed");
+
+       }else{
+           log.info("true girdi");
+           Assert.assertEquals("AppOkay", "AppOkay");
+
+       }
         log.info("sepet boşaltılmışltır");
     }
     public void Login () throws InterruptedException{
@@ -108,4 +124,6 @@ public class MainPageTest extends MainPage {
         assertEquals("You logged in unsuccessfully", url1, "https://www.gittigidiyor.com/");
         log.info("Login başarılı ");
     }
+
+
 }
