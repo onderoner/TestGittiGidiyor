@@ -13,6 +13,7 @@ public class Login {
 
     HashMap<String, String> xPaths = new HashMap<String, String>();
     HashMap<String, String> cssSelector = new HashMap<String, String>();
+    HashMap<String, String> Byname = new HashMap<String, String>();
 
     public void Login (WebDriver driver, Logger log) throws InterruptedException{
 
@@ -46,5 +47,14 @@ public class Login {
         String LoginControl = driver.getCurrentUrl();
         assertEquals("You logged in unsuccessfully", LoginControl, "https://www.gittigidiyor.com/");
         log.info("Login Succesful");
+    }
+    public void SearchComputer(WebDriver driver) throws InterruptedException {
+        //Searches for the word "bilgisayar" in the searchbar and clicks the search button.
+        Byname.put("Searchbilgisayar","k");
+        driver.findElement(By.name(Byname.get("Searchbilgisayar"))).sendKeys("bilgisayar");
+
+        xPaths.put("SearchButtonClick","//button[@class='qjixn8-0 sc-1bydi5r-0 hKfdXF']");
+        driver.findElement(By.xpath(xPaths.get("SearchButtonClick"))).click();
+
     }
 }

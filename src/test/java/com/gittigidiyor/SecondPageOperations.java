@@ -12,7 +12,7 @@ import java.util.HashMap;
 
 import static org.junit.Assert.assertEquals;
 
-public class SecondPageProcess {
+public class SecondPageOperations {
     HashMap<String, String> xPaths = new HashMap<String, String>();
     HashMap<String, String> cssSelector = new HashMap<String, String>();
     HashMap<String, String> Byname = new HashMap<String, String>();
@@ -35,5 +35,17 @@ public class SecondPageProcess {
         log.info("second page opened");
 
 
+    }
+    public void RandomProduct(WebDriver driver, Logger log) throws InterruptedException {
+
+        //There are 48 products on the second page.Therefore, the range is 0-49.
+        int min = 0;
+        int max = 49;
+        log.info("There are 48 products on the second page.Therefore, the range is 0-49.");
+        int random = (int)(Math.random()*(max-min+1)+min);
+        log.info("Selected item number:"+" "+random);
+        xPaths.put("RandomProductClick","/html/body/div[5]/div[1]/div/div[2]/div[3]/div[2]/ul/li["+random+"]/a");
+        driver.findElement(By.xpath(xPaths.get("RandomProductClick"))).click();
+        Thread.sleep(2000);
     }
 }
